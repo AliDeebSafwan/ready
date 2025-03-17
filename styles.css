@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #d79d5a;
+  text-align: center;
+}
+
+/* Logo */
+.logo img {
+  width: 150px;
+  margin: 20px auto;
+}
+
+/* Heading */
+h1 {
+  font-size: 28px;
+  color: #d79d5a;
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 15px;
+  background: black;
+  color: #d79d5a;
+  border: 2px solid #d79d5a;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #d79d5a;
+  color: black;
+}
+
+/* Tables */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: black;
+  color: #d79d5a;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 0.3px solid #d79d5a;
+  text-align: center;
+}
+
+th {
+  background: #d79d5a;
+  color: black;
+}
+
+/* Location & Contact */
+h2 {
+  font-size: 22px;
+  color: #d79d5a;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  .btn {
+    font-size: 18px;
+    width: 100%;
+  }
+  table {
+    width: 95%;
+  }
+}
+a {
+  text-decoration: none;
+}
