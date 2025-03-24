@@ -89,4 +89,17 @@ p {
 }
 a {
   text-decoration: none;
+  display: block;
+  width: 30%;
+  max-width: 150px;
+  margin: 10px auto;
+  padding: 15px;
+  background: black;
+  color: #d79d5a;
+  border: 2px solid #d79d5a;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
 }
