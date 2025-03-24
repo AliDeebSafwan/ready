@@ -13,6 +13,10 @@ body {
   width: 150px;
   margin: 20px auto;
 }
+.whatsapp img {
+  width: 50px;
+  margin: 20px auto;
+}
 
 /* Heading */
 h1 {
