@@ -13,28 +13,10 @@ body {
   width: 150px;
   margin: 20px auto;
 }
-.whatsapp-container {
-  position: fixed;
-  bottom: 20px; /* Adjust as needed */
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
-}
-
-.whatsapp-container .whatsapp-btn {
-  display: inline-block;
-}
-
-.whatsapp-container .whatsapp-btn img {
-  width: 60px;
-  height: 60px;
-  cursor: pointer;
-}
-
-/* Heading */
-h1 {
-  font-size: 28px;
-  color: #d79d5a;
+.whatsapp a {
+  color: #00c20a;
+  border: 2px solid #00c20a;
+  border-radius: 200px;
 }
 
 /* Buttons */
