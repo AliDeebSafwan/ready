@@ -13,9 +13,21 @@ body {
   width: 150px;
   margin: 20px auto;
 }
-.whatsapp img {
-  width: 50px;
-  margin: 20px auto;
+.whatsapp-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-container .whatsapp-btn {
+  display: inline-block;
+}
+
+.whatsapp-container .whatsapp-btn img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
 }
 
 /* Heading */
